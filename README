@@ -1,0 +1,10 @@
+Osgood is a fake SMTP server.  Its intended purpose is to
+provide developers with a safe way to test email integration
+without actually delivering emails.  This helps avoid
+the developer having to sit in a room with a dozen
+executives and explain why he inadvertantly sent a bunch
+of meaningless or offensive test emails to customers.
+
+The name "Osgood" is taken from America's first Postmaster
+General.  I assume that he did a better job of actually
+delivering mail than the osgood server does.
