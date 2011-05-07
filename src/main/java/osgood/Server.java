@@ -29,7 +29,6 @@ public class Server implements Runnable {
 		this.serverSocket = new ServerSocket(Integer.parseInt(config.getProperty("smtp.port")));
 	}
 	
-	@Override
 	public void run() {
 		File mailbagDir = new File(config.getProperty("mailbag.location"));
 		ExecutorService threadPool = Executors.newCachedThreadPool(); 

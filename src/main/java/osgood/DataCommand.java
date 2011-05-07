@@ -10,7 +10,6 @@ import java.net.Socket;
 public class DataCommand implements Command {
 	String data;
 	
-	@Override
 	public void execute(Socket socket) throws IOException {
 		BufferedWriter out = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
 		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));

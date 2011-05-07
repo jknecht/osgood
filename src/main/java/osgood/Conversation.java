@@ -15,7 +15,6 @@ public class Conversation implements Runnable {
 		this.relay = relay;
 	}
 
-	@Override
 	public void run() {
 		try {
 			this.socket.setSoTimeout(30000);

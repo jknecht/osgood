@@ -11,7 +11,6 @@ public class FileRelay implements MessageRelay {
 		this.file = file;
 	}
 
-	@Override
 	public void relay(String message) throws IOException {
 		FileWriter writer = new FileWriter(file);
 		writer.write(message);
