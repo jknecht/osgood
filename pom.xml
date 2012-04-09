@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>osgood</groupId>
   <artifactId>osgood</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>1.0</version>
   <name>osgood</name>
   <description>Fake SMTP server that writes all outgoing email to the file system</description>
   <build>
